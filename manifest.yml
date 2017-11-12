@@ -1,5 +1,5 @@
 declared-services:
-  simple-rbs-cloudantNoSQLDB:
+  winefinder-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan: Lite
 
@@ -8,8 +8,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: simple-rbs
-  host: simple-rbs
+  name: winefinder
+  host: winefinder
   disk_quota: 1024M
   services:
-  - simple-rbs-cloudantNoSQLDB
+  - winefinder-cloudantNoSQLDB
